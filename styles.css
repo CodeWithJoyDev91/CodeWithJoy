@@ -27,43 +27,65 @@ h1 {
 
 h2 {
     family-font: 'Technoid', sans-serif;
-    color: var(--primary-color, #E7AA51);
+    font-color: #E7AA51;
+    font-weight: bold;
+    font-size: 2.5rem;
     margin-top:2.5rem;
 }
 
 h3 {
     family-font: 'Technoid', sans-serif;
-    color: var(--primary-color, #E7AA51);
+    color: #E7AA51;
 }
 
 p {
     font-family: 'EleganTech', sans-serif;
-    font-size:1.2rem;
-    line-height:1.6;
+    font-color: #FFE499;
+    font-size:2rem;
+    line: height 2rem;;
 }
 
 strong {
     font-family: 'Technoid', sans-serif;
-    color: var(--primary-color, #6A1B9A);
+    color: #6A1B9A;
+    font-size: 2.5rem;
 }
 
 hr {
     border: 0;
     height: 3px;
-    background: linear-gradient(135deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031);
+    background: linear-gradient(180deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031);
     margin: 2rem 0;
 }
 
 .hero {
     background: linear-gradient(180deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031);
-    text-align: center;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    width: 100%;ry-color,
     height: 300px;
     font-size: 3rem;
 }
 
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
 .ph {
-    font-family: 'Technoid', sans-serif;
+    font-family: 'EleganTech', sans-serif;
     color: var(--primary-color, #222222);
     font-size: 2rem;
     margin-top: 0.5rem;
@@ -85,7 +107,7 @@ hr {
 
 .quote {
     font-family: 'Technoid', sans-serif;
-    color: var(--primary-color, #E7AA51);
+    font-color: #E7AA51;
     font-size: 1.5rem;
     margin-top: 1rem;
     text-align: center;
@@ -95,6 +117,19 @@ hr {
     padding: 1.5rem;
     border-radius: 8px;
     margin-top: 2rem;
+}
+
+a {
+    color: #A26E2E;
+}
+
+a:hover {
+    color: plum;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #9E9E9E;
 }
 
 footer {
