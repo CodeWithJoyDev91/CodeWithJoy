@@ -4,23 +4,24 @@
 }
 @font-face {
     font-family: 'Technoid';
-    src: url(fonts/TECHNOIC.TTF') format('truetype');
+    src: url(fonts/TECHNOID.TTF') format('truetype');
 }
 
 body {
     font-family:'EleganTech', sans-serif;
     background: linear-gradient(135deg, #222222, #6a1b9a, #222222);
-    color: var (--text-color, #333);
+    font-size: 1.5rem;
+    color: var (--text-color, #9E9E9E);
     margin: 0;
     padding: 2rem;
-    width: 100vw;
+    width: 100%;
 }
 
 h1 {
     font-family: 'Technoid', sans-serif;
     text-align: center;
     color: var(--primary-color, #6A1B9A);
-    font-size:2.5rem;
+    font-size:3rem;
     margin-bottom:0.5rem;
 }
 
@@ -30,6 +31,11 @@ h2 {
     margin-top:2.5rem;
 }
 
+h3 {
+    family-font: 'Technoid', sans-serif;
+    color: var(--primary-color, #E7AA51);
+}
+
 p {
     font-family: 'EleganTech', sans-serif;
     font-color: #9E9E9E;
@@ -37,23 +43,43 @@ p {
     line-height:1.6;
 }
 
-.hero {
-    background: linear-gradient (180deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031)
-    width: 100%;
-    height: 300px;
+strong {
+    font-family: 'Technoid', sans-serif;
+    color: var(--primary-color, #6A1B9A);
 }
 
+hr {
+    border: 0;
+    height: 3px;
+    background: linear-gradient(135deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031);
+    margin: 2rem 0;
+}
+.hero {
+    background: linear-gradient(180deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031);
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    font-size: 3rem;
+}
+
+.ph {
+    font-family: 'Technoid', sans-serif;
+    color: var(--primary-color, #6A1B9A);
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
 .section {
     margin-top: 2rem;
     width: 100%;
 }
 
 .package {
-    background: linear-gradient (180deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031)
-    border-left: 6px solid var(--primary-color, #007bff);
+    background: linear-gradient(180deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031);
+    border-left: 6px solid var(--primary-color, #A26E2E);
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 8px;
+    text-align: center;
 }
 
 .contact {
