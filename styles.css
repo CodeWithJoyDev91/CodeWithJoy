@@ -11,7 +11,7 @@ body {
     font-family:'EleganTech', sans-serif;
     background: linear-gradient(135deg, #222222, #6a1b9a, #222222);
     font-size: 1.5rem;
-    font-color:#FFE499);
+    color:#FFE499;
     margin: 0;
     width: 100%;
 }
@@ -26,45 +26,45 @@ h1 {
 }
 
 h2 {
-    family-font: 'Technoid', sans-serif;
-    font-color: #E7AA51;
+    font-family: 'Technoid', sans-serif;
+    color: #E7AA51;
     font-weight: bold;
     font-size: 2.5rem;
     margin-top:2.5rem;
 }
 
 h3 {
-    family-font: 'Technoid', sans-serif;
+    font-family: 'Technoid', sans-serif;
     color: #E7AA51;
 }
 
 p {
     font-family: 'EleganTech', sans-serif;
-    font-color: #FFE499;
+    color: #FFE499;
     font-size:2rem;
-    line: height 2rem;;
+    line-height: 2rem;;
 }
 
 strong {
     font-family: 'Technoid', sans-serif;
-    color: #6A1B9A;
+    color: #ECAA51;
     font-size: 2.5rem;
 }
 
 hr {
     border: 0;
     height: 3px;
-    background: linear-gradient(180deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031);
+    background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
     margin: 2rem 0;
 }
 
 .hero {
-    background: linear-gradient(180deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031);
+    background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 4rem;
-    width: 100%;ry-color,
+    width: 100%, ry-color;
     height: 300px;
     font-size: 3rem;
 }
@@ -96,18 +96,18 @@ hr {
 }
 
 .package {
-    background: linear-gradient(180deg, #E7AA51, #FFE499, #A26E2E, #E7AA51, #AC7031);
+    background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
     border-left: 6px solid var(--primary-color, #A26E2E);
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 8px;
     text-align: center;
-    font-color: #222222;
+    color: #222222;
 }
 
 .quote {
     font-family: 'Technoid', sans-serif;
-    font-color: #E7AA51;
+    color: #E7AA51;
     font-size: 1.5rem;
     margin-top: 1rem;
     text-align: center;
