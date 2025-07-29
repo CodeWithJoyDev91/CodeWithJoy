@@ -29,13 +29,16 @@ h2 {
     font-family: 'Technoid', sans-serif;
     color: #E7AA51;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin-top:2.5rem;
 }
 
 h3 {
     font-family: 'Technoid', sans-serif;
     color: #E7AA51;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
 }
 
 p {
@@ -48,7 +51,7 @@ p {
 strong {
     font-family: 'Technoid', sans-serif;
     color: #ECAA51;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 hr {
@@ -62,8 +65,8 @@ hr {
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 4rem;
+    justify-content: center;
+    padding: 2rem;
     width: 100%, ry-color;
     height: 300px;
     font-size: 3rem;
@@ -87,17 +90,20 @@ hr {
 .ph {
     font-family: 'EleganTech', sans-serif;
     color: var(--primary-color, #222222);
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 0.5rem;
 }
+
 .section {
     margin-top: 2rem;
     width: 100%;
+    line-height: 2;
+    text-align: justify;
 }
 
 .package {
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
-    border-left: 6px solid var(--primary-color, #A26E2E);
+    border-left: 6px solid #A26E2E;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 8px;
@@ -105,12 +111,18 @@ hr {
     color: #222222;
 }
 
+.sp {
+    font-family: 'Technoid', sans-serif;
+    color: #6A1B9A;
+    font-size: 3.5rem;
+}
 .quote {
     font-family: 'Technoid', sans-serif;
     color: #E7AA51;
-    font-size: 1.5rem;
+    font-size: 4rem;
+    text-align: justify;
     margin-top: 1rem;
-    text-align: center;
+    line-height: 2;
 }
 
 .contact {
