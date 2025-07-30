@@ -70,11 +70,10 @@ hr {
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 2rem;
     gap: 2rem;
-    height: 32rem;
-    width: 100%;
 }
 
 .logo {
@@ -85,8 +84,8 @@ hr {
 
 .hero-text h1,
 .hero-text h2 {
-    margin-right: 400px;
-    margin-left: 800px;
+   max-width: 600px;
+   text-align: center;
 }
 
 .brand {
@@ -174,7 +173,7 @@ a:visited {
     padding: 1rem;
     font-family: 'EleganTech', sans-serif;
     color: #222222;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
