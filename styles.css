@@ -14,13 +14,13 @@ body {
     color:#FFE499;
     margin: 0;
     width: 100%;
-    padding: 1.5;
+    padding: 1.5rem;
 }
 
 h1 {
     font-family: 'Technoid', sans-serif;
     text-align: center;
-    color: var(--primary-color, #6A1B9A);
+    color: #6A1B9A;
     font-size:5rem;
     margin-bottom:0.5rem;
     padding-top: 1rem;
@@ -57,9 +57,9 @@ strong {
 
 hr {
     border: 0;
-    height: 3px;
+    height: 5px;
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .hero {
@@ -69,20 +69,20 @@ hr {
     justify-content: flex-start;
     padding: 2rem;
     gap: 2rem;
-    height: 300px;
+    height: 400px;
     width: 100%;
 }
 
 .logo {
-    width: 300px;
+    width: 400px;
     height: auto;
-    padding-left: 4rem
+    padding-left: 3rem
 }
 
 .hero-text h1,
 .hero-text h2,
 .hero-text p {
-    margin: 600px0.3rem 0;
+    margin: 600px 0.3rem 0;
     text-align: center;
 }
 
@@ -98,12 +98,11 @@ hr {
     font-weight: 400;
 }
 
-}
-
 .section {
     margin-top: 2rem;
     width: 100%;
-    line-height: 2;
+    line-height: 2.5;
+    padding: 1.5rem;
 }
 
 .section p {
@@ -114,7 +113,7 @@ hr {
 .package {
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
     border-left: 10px solid #A26E2E;
-    padding: 1rem;
+    padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 8px;
     color: #222222;
@@ -161,8 +160,11 @@ a:visited {
 }
 
 footer {
+    background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
     text-align: center;
     margin-top: 3rem;
     font-size: 0.9rem;
-    color: #FFE499;
+    color: #222222;
+    padding: 1.5rem;
+    height: 100px
 }
