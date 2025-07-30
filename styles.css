@@ -50,7 +50,7 @@ p {
 
 strong {
     font-family: 'EleganTech', sans-serif;
-    color: #ECAA51;
+    color: #E7AA51;
     font-size: 3rem;
 }
 
@@ -68,21 +68,20 @@ hr {
     justify-content: flex-start;
     padding: 2rem;
     gap: 2rem;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 
 .logo {
-    width: 400px;
+    width: 500px;
     height: auto;
     padding-left: 3rem
 }
 
 .hero-text h1,
 .hero-text h2 {
-    margin-right: 500px 0.3rem 0;
-    margin-left: 700px 0.3rem 0;
-    text-align: center;
+    margin-right: 400px 0.3rem 0;
+    margin-left: 800px 0.3rem 0;
 }
 
 .brand {
@@ -170,6 +169,6 @@ a:visited {
     padding: 1rem;
     font-family: 'EleganTech', sans-serif;
     color: #222222;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     text-align: center;
 }
