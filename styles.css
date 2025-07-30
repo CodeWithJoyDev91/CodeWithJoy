@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Technoid', sans-serif;
+    font-family: 'EleganTech', sans-serif;
     color: #E7AA51;
     font-weight: 700;
     font-size: 4rem;
@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Technoid', sans-serif;
+    font-family: 'EleganTech', sans-serif;
     color: #E7AA51;
     font-size: 4rem;
     font-weight: 700;
@@ -49,7 +49,7 @@ p {
 }
 
 strong {
-    font-family: 'Technoid', sans-serif;
+    font-family: 'EleganTech', sans-serif;
     color: #ECAA51;
     font-size: 3.5rem;
 }
@@ -73,7 +73,7 @@ hr {
 }
 
 .logo {
-    width: 100px;
+    width: 300px;
     height: auto;
 }
 
@@ -81,12 +81,12 @@ hr {
 .hero-text h2,
 .hero-text p {
     margin: 600px0.3rem 0;
-    text-align: left;
+    text-align: center;
 }
 
 .brand {
     font-size: 4rem;
-    color: #6A1B9A
+    color: #6A1B9A;
     font-weight: 700;
 }
 
@@ -123,12 +123,19 @@ hr {
 }
 
 .sp {
-    font-family: 'Technoid', sans-serif;
+    font-family: 'EleganTech', sans-serif;
     color: #6A1B9A;
     font-size: 3.5rem;
 }
+
+.description {
+    font-family: 'EleganTech', sans-serif;
+    color: #222222;
+    font-size:2rem;
+    line-height: 1.6;
+}
 .quote {
-    font-family: 'Technoid', sans-serif;
+    font-family: 'EleganTech', sans-serif;
     color: #E7AA51;
     font-size: 4rem;
     text-align: justify;
