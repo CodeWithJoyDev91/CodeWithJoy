@@ -14,6 +14,7 @@ body {
     color:#FFE499;
     margin: 0;
     width: 100%;
+    padding: 1.5;
 }
 
 h1 {
@@ -44,14 +45,14 @@ h3 {
 p {
     font-family: 'EleganTech', sans-serif;
     color: #FFE499;
-    font-size:2rem;
+    font-size: 3rem;
     line-height: 1.6;
 }
 
 strong {
     font-family: 'EleganTech', sans-serif;
     color: #ECAA51;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 hr {
@@ -75,6 +76,7 @@ hr {
 .logo {
     width: 300px;
     height: auto;
+    padding-left: 4rem
 }
 
 .hero-text h1,
@@ -85,21 +87,17 @@ hr {
 }
 
 .brand {
-    font-size: 4rem;
+    font-size: 6rem;
     color: #6A1B9A;
     font-weight: 700;
 }
 
 .tagline {
-    font-size: 2.5rem;
-    color: #222222;
-    font-weight: 500;
-}
-
-.subtag {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #222222;
     font-weight: 400;
+}
+
 }
 
 .section {
@@ -109,16 +107,16 @@ hr {
 }
 
 .section p {
+    font-size:3rem;
     text-align: justify;
 }
 
 .package {
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
-    border-left: 6px solid #A26E2E;
+    border-left: 10px solid #A26E2E;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 8px;
-    text-align: center;
     color: #222222;
 }
 
@@ -131,13 +129,13 @@ hr {
 .description {
     font-family: 'EleganTech', sans-serif;
     color: #222222;
-    font-size:2rem;
+    font-size:3rem;
     line-height: 1.6;
 }
 .quote {
     font-family: 'EleganTech', sans-serif;
     color: #E7AA51;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: justify;
     margin-top: 1rem;
     line-height: 2;
