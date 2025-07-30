@@ -28,7 +28,7 @@ h1 {
 h2 {
     font-family: 'Technoid', sans-serif;
     color: #E7AA51;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 4rem;
     margin-top:2.5rem;
 }
@@ -37,7 +37,7 @@ h3 {
     font-family: 'Technoid', sans-serif;
     color: #E7AA51;
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 2.5rem;
 }
 
@@ -45,7 +45,7 @@ p {
     font-family: 'EleganTech', sans-serif;
     color: #FFE499;
     font-size:2rem;
-    line-height: 2rem;;
+    line-height: 1.6;
 }
 
 strong {
@@ -65,39 +65,50 @@ hr {
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 2rem;
-    width: 100%, ry-color;
-    height: 300px;
-    font-size: 3rem;
-}
-
-.hero-content {
-    display: flex;
-    align-items: center;
     gap: 2rem;
+    height: 300px;
+    width: 100%;
 }
 
 .logo {
-    width: 120px;
+    width: 100px;
     height: auto;
 }
 
-.hero-text {
-    max-width: 600px;
+.hero-text h1,
+.hero-text h2,
+.hero-text p {
+    margin: 600px0.3rem 0;
+    text-align: left;
 }
 
-.ph {
-    font-family: 'EleganTech', sans-serif;
-    color: var(--primary-color, #222222);
-    font-size: 3rem;
-    margin-top: 0.5rem;
+.brand {
+    font-size: 4rem;
+    color: #6A1B9A
+    font-weight: 700;
+}
+
+.tagline {
+    font-size: 2.5rem;
+    color: #222222;
+    font-weight: 500;
+}
+
+.subtag {
+    font-size: 2.5rem;
+    color: #222222;
+    font-weight: 400;
 }
 
 .section {
     margin-top: 2rem;
     width: 100%;
     line-height: 2;
+}
+
+.section p {
     text-align: justify;
 }
 
