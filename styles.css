@@ -7,6 +7,10 @@
     src: url('fonts/TECHNOID.TTF') format('truetype');
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family:'EleganTech', sans-serif;
     background: linear-gradient(135deg, #222222, #6a1b9a, #222222);
@@ -23,6 +27,7 @@ h1 {
     font-size:5rem;
     margin-bottom:0.5rem;
     padding-top: 1rem;
+    font-weight: 700;
 }
 
 h2 {
@@ -56,9 +61,9 @@ strong {
 
 hr {
     border: 0;
-    height: 5px;
+    height: 0.3rem;
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
-    margin: 3rem 0;
+    margin: 3rem;
 }
 
 .hero {
@@ -68,20 +73,20 @@ hr {
     justify-content: flex-start;
     padding: 2rem;
     gap: 2rem;
-    height: 500px;
+    height: 32rem;
     width: 100%;
 }
 
 .logo {
-    width: 500px;
+    width: 32rem;
     height: auto;
     padding-left: 3rem
 }
 
 .hero-text h1,
 .hero-text h2 {
-    margin-right: 400px 0.3rem 0;
-    margin-left: 800px 0.3rem 0;
+    margin-right: 400px;
+    margin-left: 800px;
 }
 
 .brand {
@@ -104,16 +109,16 @@ hr {
 }
 
 .section p {
-    font-size:3rem;
+    font-size: 3rem;
     text-align: justify;
 }
 
 .package {
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
-    border-left: 10px solid #A26E2E;
+    border-left: 1rem solid #A26E2E;
     padding: 1.5rem;
     margin-bottom: 1rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     color: #222222;
 }
 
@@ -140,7 +145,7 @@ hr {
 
 .contact {
     padding: 1.5rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     margin-top: 2rem;
 }
 
@@ -160,7 +165,7 @@ a:visited {
 .footer {
     background: linear-gradient(180deg, #AC7031, #ECAA51, #FFE499, #E7AA51, #8D5A1B);
     margin-top: 3rem;
-    height: 50px;
+    height: 4rem;
     padding: 1rem;
 }
 
@@ -169,6 +174,49 @@ a:visited {
     padding: 1rem;
     font-family: 'EleganTech', sans-serif;
     color: #222222;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2, h3 {
+        font-size: 2.2rem;
+    }
+
+    .logo {
+        max-width: 80%;
+        padding-left: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .hero-text {
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    .section p,
+    .description,
+    .quote {
+        font-size: 1.5rem;
+    }
+
+    .package {
+        font-size: 1.5rem;
+    }
+
+    .sp {
+        font-size: 2rem;
+    }
 }
